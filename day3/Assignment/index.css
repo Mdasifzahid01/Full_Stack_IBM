@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228, 228, 238);
+    
+}
+.header h1{
+    text-align: center;
+    color: rgb(57, 38, 117);
+}
+.div1{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(193, 122, 122);
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      
+}
+.div1 a{
+    text-decoration: none;
+}
+.div1 a:hover{
+    color: rgb(95, 65, 192);
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    align-items: center;
+    /* margin-top: auto; */
+}
+.img {
+    text-align: center;
+    margin-top: 20px;
+}
+.footer{
+    background-color: slateblue;
+    text-align: center;
+}
