@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            /* p{background-color: teal;
+            text-align: center;
+        }
+        .para1{
+            background-color: violet;
+            text-align: left;
+        }
+        .para{
+            background-color: black;
+        }
+        #para2{
+            background-color: yellowgreen;
+        }  */
+       #parent1 p{
+        background-color: brown;
+       }
+       #parent2 > p{
+        background-color: cadetblue;
+       }
+       /* #parent3 :nth-child(1)+h1{
+        background-color: rgb(115, 44, 214);
+       } */
+       #parent3 :nth-child(1)~h1{
+        background-color: rgb(115, 44, 214);
+       }
+       #parent3>div>#myid{
+        background-color: saddlebrown;
+       }
+       input[type="text"]{
+        height: 20px;
+        width: 200px;
+        background-color: rgb(169, 156, 174);
+       }
+    </style>
+</head>
+<body>
+    <!-- <div>
+        <p>I am pragrapg</p>
+    </div>
+    <div>
+        <p class="para1">I am pragrapg</p>
+    </div>
+    <div>
+        <p class="para1">I am pragrapg</p>
+    </div>
+    <div>
+        <p class="para1">I am pragrapg</p>
+    </div>
+    <div>
+        <p id="para2" class="para">I am pragrapg</p>
+    </div> -->
+    <!-- <div id="parent1">
+        <p>I am a paragraph</p>
+        <div>
+            <p>Child para1</p>
+            <p>Child para2</p>
+            <div>
+                <p>Grand child 1</p>
+                <p>Grand child 2</p>
+            </div>
+        </div>    
+    </div>
+
+    <div id="parent2">
+        <p>I am a paragraph</p>
+        <div>
+            <p>Child para1</p>
+            <p>Child para2</p>
+            <div>
+                <p>Grand child 1</p>
+                <p>Grand child 2</p>
+            </div>
+        </div>    
+    </div>
+   
+    <div id="parent3">
+        <p>paragraph</p>
+        <h1>Heading</h1>
+        <h1>Heading</h1>
+        <p>paragraph</p>
+        <p>paragraph</p>
+        <div>
+            <p id="myid">paragraph nested 1</p>
+            <h2>Heading 2</h2>
+            <p>paragraph nested 2</p>
+            <h2>Heading 2</h2>
+            <div>
+                <h2>Sheikhzahid</h2>
+            </div>
+        </div>
+
+    </div> -->
+    <div style="height: 150px; width: 200px; border: 1px solid black; overflow: auto;">
+        <p>Subedar Major Neeraj Chopra PVSM VSM (born 24 December 1997) is an Indian track and field athlete. Considered as the greatest Indian javelin thrower, he's a double medalist at the Olympics, World Championships, and the Asian Games. He has won the Diamond League once. Chopra won the gold medal at the 2020 Olympics, becoming the first Asian javelin throw athlete to do so.[8] He became the first Asian to win a gold in javelin at the World Championships after his win in 2023. Chopra has won gold medals in every major tournament. He has a podium finish streak in 24 consecutive competitions, dating back to 2020.[9] Since his performance at the 2016 World U20 Championship, he continues to hold the junior javelin throw world record.[10]
+         </p>
+         
+    </div>
+    <input type ="text" placeholder="Enter something" >
+</body>
+</html>
+<!-- there are 4 types of sselector in class
+ 1. element selector
+ 2. universal selector
+ 3. id selector
+ 4. class selector
+Combinators
+1. Decendant Combinators (parent ke baad space use krke child ka name )
+2. child Combinators (parent > child)
+3. Adyustent Combinators (+)
+4. General sibling Combinators(~) -->
