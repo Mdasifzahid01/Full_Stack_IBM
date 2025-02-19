@@ -41,7 +41,7 @@
     position: fixed;
     bottom: 100px;
     right: 15px;
-    /* display: none; */
+    display: none;
 }
 #sticky{
     position: sticky;
@@ -101,5 +101,5 @@ input:focus{
 }
 
 p::after{
-    background-color: black;
+    
 }

@@ -1,0 +1,31 @@
+#parent{
+    width: 100%;
+    height: 500px;
+    border: 1px solid gray;
+    background-color: antiquewhite;
+    /* display: flex;
+    flex-wrap: wrap;*/
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+     
+} 
+#parent>div{
+    /* width: 200px;
+    height: 200px; */
+    border: 1px solid rgb(212, 50, 214);
+    background-color: rgb(168, 87, 243);
+}
+
+/* #parent>div:nth-child(1){
+    background-color: rgb(99, 35, 35);
+    grid-area: ;
+} */
+#child1{
+    background-color: rgb(166, 195, 177);
+    grid-area: 1/1/2/3;
+}
+/* #child5{
+    grid-area: 3/2/4/3;
+    background-color: brown;
+} */
