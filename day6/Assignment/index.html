@@ -4,33 +4,166 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <div id="container">
+    <div class="container">
+
+        <!-- Header -->
+
         <div class="header">
-         <nav class="navbar">
-            <div class="left-section">
-                <img src="paytm-logo.png" alt="Paytm Logo" class="logo">
-                <ul>
-                    <li>Teckit Booking</li>
-                    <li>Recharge & Bills</li>
-                    <li>Payment & Sirvice</li>
-                    <li>Payment for Business</li>
-                    <li>Company</li>
-                </ul>
+            <div class="logo">
+                <img src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logo_new.svg" alt="Paytm Logo">
             </div>
-            <div class="right-section">
-                <a href="#" class="download">Download App</a>
-                <button class="sign-in">
-                    <span class="icon">👤</span> Sign In
-                </button>
-            </div>   
-         </nav>
+            <div class="drop1">
+                <select  id="op1">
+                    <option selected><b>Ticket Booking</b></option>
+                    <option>Movie Tickets</option>
+                    <option>Flight Tickets</option>
+                    <option>Train Tickets</option>
+                    <option>Bus Tickets</option>
+                </select>
+            </div>
+
+            <div class="drop2">
+                <select  id="op2">
+                    <option selected><b>Recharge & Bills</b></option>
+                    <option>Mobile Recharge</option>
+                    <option>Electricity bill</option>
+                    <option>DTH rechrrge</option>
+                    <option>Water Bill</option>
+                    <option >Loan EMI</option>
+                </select>
+            </div>
+
+            <div class="drop3">
+                <select  id="op3">
+                    <option selected><b>Payment & Services</b></option>
+                    <option>Payments</option>
+                    <option>Loans & credit cards</option>
+                    <option>Wealth</option>
+                </select>
+            </div>
+
+            <div class="drop4">
+                <select  id="op4">
+                    <option selected><b>Paytm for Business</b></option>
+                    <option>Online Payments</option>
+                    <option>Offline Payments</option>
+                    <option>Business Software</option>
+                    <option>For Developers-API</option>
+                </select>
+            </div>
+
+            <div class="drop5">
+                <select  id="op5">
+                    <option selected><b>Company</b></option>
+                    <option>About</option>
+                    <option>Investor Relations</option>
+                    <option>sustainability</option>
+                    <option>Blog</option>
+                    <option >Contact us</option>
+                </select>
+            </div>
+
+            <div class="download">
+                <img alt="Download App" src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/downloadApp.svg">
+                Download App
+            </div>
+
+            <div id="signbtn">
+                <img id="user" alt="user" src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logoutImg.svg">
+                <span id="sign">Sign In</span>
+            </div>
         </div>
-        <div id="img1">
-            <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2890666/10903120897665220.jpg"/>
+
+        <!-- Body -->
+
+        <div class="travel">
+            <img  id="left_arr" src="https://pwebassets.paytm.com/frontendcommonweb/static/b9191e68..svg" alt="snsn">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2890666/10903120897665220.jpg" alt="travel img">
+            <img id="right_arr" src="https://pwebassets.paytm.com/frontendcommonweb/static/b9191e68..svg" alt="snsn">
+
+        </div>
+        <div id="arrow">
+            
+        </div>
+        
+       <!-- Boxes -->
+        <div class="box">
+            <div class="box1">
+                <h3>Recharge</h3>
+                <div class="icons">
+                    <div>
+                        <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2839929/1725624139422.png" alt="Mobile Recharge">
+                        <p>Mobile<br>Recharge</p>
+                    </div>
+                    <div>
+                        <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2839930/1725624172567.png" alt="DTH Recharge">
+                        <p>DTH<br>Recharge</p>
+                    </div>
+                    <div>
+                        <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2839931/1725624207849.png" alt="FasTag Recharge">
+                        <p>Fasttag<br>Recharge</p>
+                    </div>
+                    <div>
+                        <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2839932/1725624245350.png" alt="View All Products">
+                        <p>View All<br>Products</p>
+                    </div>
+
+                </div>
+                <div class="recharge">
+                    <img src="https://assetscdn1.paytm.com/images/catalog/view/1732260479349.png" alt="">
+                </div>
+            </div>
+
+            <div class="box2">
+                <h3>Bill Payments</h3>
+                <div class="icons">
+                    <div>
+                        <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2839933/1725624373019.png" alt="Credit Card Payment">
+                        <p>Credit Card<br>Payments </p>
+                    </div>
+                    <div>
+                        <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2839934/1725624413059.png" alt="Electricity Bill">
+                        <p>Electricity<br>Bill</p>
+                    </div>
+                    <div>
+                        <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2839935/1725624449393.png" alt="Broadband Bill">
+                        <p>Broadband<br>Bill</p>
+                    </div>
+                    <div>
+                        <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2839932/1725624245350.png" alt="View All Products">
+                        <p>View All<br>Products</p>
+                    </div>
+
+                </div>
+                <div class="recharge">
+                    <img src="https://assetscdn1.paytm.com/images/catalog/view/1732260510732.png" alt="">
+                </div>
+                
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer1">
+                <img src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logo_new.svg" alt="Paytm Logo">
+                <h1>Pay anyone directly from your bank account.</h1>
+                <p>Pay anyone,everywhere.Make contactless & secure
+                    payments in-stores or online using Paytm UPI or
+                    Directly from your Bank Account.Plus,send & receive money
+                    from anyone.
+                </p>
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2834703/1725432129171.png" alt="link">
+                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2834704/1725432148873.png" alt="link">
+            </div>
+            <div class="footer2">
+                <img src="https://assetscdn1.paytm.com/images/catalog/view/1725447382730.png" alt="brand">
+
+            </div>
         </div>
     </div>
 </body>
