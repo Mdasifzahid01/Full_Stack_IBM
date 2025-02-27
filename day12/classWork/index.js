@@ -36,7 +36,7 @@ form.addEventListener("submit", (e) => {
 
     tr.append(td1, td2, td3, td4, td5)
 
-    document.getElementById("tbody").append(tr);
+    document.getElementById("tbody").append(tr);    
 
     document.getElementById("name").value="";
     document.getElementById("email").value="";
