@@ -1,0 +1,64 @@
+body{
+    background-image: url("https://image.slidesdocs.com/responsive-images/background/film-festival-red-creative-powerpoint-background_87e4add382__960_540.jpg");
+    background-size: cover;
+}
+#container{
+    width: 40%;
+    background-color: rgb(153, 6, 23);
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    margin-top: 5%;
+    box-shadow: 5px 5px 5px 2px rgb(228, 80, 95) ;
+    border-radius: 0px 20px 0px 20px;
+}
+#genere,.txt,input{
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    gap: 20px;
+    margin-top: 30px;
+    border: none;
+    font-size: larger;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#genere:hover{
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+button{
+    width: 50%;
+    height: 40px;
+    margin: 30px;
+    font-size: x-large;
+    font-style: italic;
+}
+
+input:hover{
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+h1{
+    color: rgb(238, 243, 237);
+}
+button:active{
+    background-color: rgb(210, 16, 81);
+}
+.txt:hover{
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+#viewButton{
+    width: 180px;
+    margin-left: 58%;
+    background-color: brown;
+}

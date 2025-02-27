@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Manegement System</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <div id="container">
+        <h1>Movie Info</h1>
+        <form id="indexform">
+        <input type="text" id="moviename" placeholder="Movie Name">
+        <input type="number" id="raleaseyear" placeholder="Ralease Year">
+        <input type="number" id="imdb" placeholder="IMDB Rating(0-10)">
+        <input type="url" id="poster" placeholder="Movie Poster">
+        <select id="genere"> 
+            <!-- <option >Choose a Genre</option> -->
+            <option>Action</option>
+            <option>Comedy</option>
+            <option>Drama</option>
+            <option>Sci-Fi</option>
+            <option>Horror</option>
+            <option>Fantasy</option>
+            <option>Thriller</option>
+            <option>Adventure</option>
+            <option>etc</option>
+        </select>
+        <textarea class="txt" id="discreption" placeholder="Movie Discreption"></textarea>
+        <button>Submit</button>
+        </form>
+    </div>
+    <button id="viewButton"><a href="movie.html">View Movies</a></button>
+</body>
+</html>
+<script src="index.js"></script>

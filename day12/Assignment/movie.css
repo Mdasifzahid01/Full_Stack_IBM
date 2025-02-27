@@ -1,0 +1,36 @@
+body{
+    width: 100%;
+    background-image: url("https://image.slidesdocs.com/responsive-images/background/film-festival-red-creative-powerpoint-background_87e4add382__960_540.jpg");
+    background-size: cover;
+}
+#table{
+    color: aqua;
+    width: 60%;
+    height: 50px;
+    background-color: brown;
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+h2{
+    color: aqua;
+    text-align: center;
+}
+#searchbar{
+    color: aliceblue;
+    height: 40px;
+    width: 20%;
+    text-align: center;
+    margin-left: 20%;
+    display: flex;
+    gap: 20px;
+    background-color: brown;
+    border: none;
+}
+#BackPage{
+    width: 180px;
+    height: 40px;
+    margin-left: 68%;
+    background-color: brown;
+    margin-top: 10px;
+}
