@@ -1,0 +1,43 @@
+#header{
+    width: 100vh;
+    height: 70px;
+    border: 1px solid black;
+    display: flex;
+}
+#logo{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    color: brown;
+    /* justify-content: center;s */
+    margin: 25px;
+    margin-left: 40px;
+}
+#search{
+    height: 30px;
+    width: 400px;
+    justify-content: center;
+    margin: auto;
+    margin-left: 70px;
+    border-radius: 30px;
+}
+#voice{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-right: 400px;
+}
+#vc{
+    display: flex;
+    color: brown;
+    font-size: 30px;
+}
+#bell{
+    font-size: 40px;
+    margin-right: 200px;
+}
