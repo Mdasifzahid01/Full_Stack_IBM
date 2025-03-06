@@ -1,0 +1,147 @@
+body{
+    background-color: white;
+    font-family: "Roboto", "Arial", sans-serif;  
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.firsthead{
+    display: flex;   
+}
+.yt{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+#bar{
+    font-size: 20px;
+    margin-top: 16px;
+    margin-right: 15px;
+    opacity: 0.6;
+    margin-left: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+#search{
+    height: 50px;
+    border: 1px solid rgb(17, 8, 2);
+    width: 500px;
+    background-color: white;
+    border-radius: 30px 0px 0px 30px ;  
+}
+.se{
+    display: flex;
+}
+.mag{
+    border:1px solid rgb(22, 7, 3);
+    width: 70px;
+    height: 50px;
+    border-radius: 0px 30px 30px 0px;
+    cursor: pointer;
+}
+.create{
+    border: 1px solid grey;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+#gonta{
+    font-size:x-large;  
+    padding: 10px;
+    cursor: pointer;
+}
+.lasthead{
+    display: flex;
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+}
+.sidebar{
+    margin-top: 0px;
+    width: 300px;
+    height: 100vh;
+    background-color: white;
+    overflow: scroll;
+    position: relative;
+}
+.sidebar>ul>li{
+    display: flex;
+    padding: 10px;
+}
+.sidebar>ul>li>a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: black;
+    
+}
+
+.sidebar>ul{
+    margin: 0;
+    padding: 0;
+}
+#arrow{
+    margin-top: 18px;
+    margin-left: 7px;
+}
+.headbar{
+    margin-left: 320px;
+    position: absolute;
+    margin-top: 20px;
+    display: flex;
+    position:sticky;
+    gap: 20px;
+}
+.headbar button{
+    font-weight: 600;
+    border: 1px solid whitesmoke;
+    border-radius:5px ;
+    padding: 5px;
+    margin: 2px;
+    height: 36px;
+    cursor: pointer;
+}
+
+#lower_body{
+    height: 1000px;
+    width: 80%;
+    margin-left: 350px;
+    margin-top: 30px;
+    border: 1px solid black;
+    background-color: rgb(215, 215, 227);
+    display:grid;
+    grid-template-columns: repeat(3,2fr);
+    overflow: scroll;
+    position: absolute;
+    /* gap: 20px; */
+}
+.card{
+    height: 400px;
+    width: 400px;
+    /* background-color: blue; */
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 40px;
+    
+}
+.video{
+    height: 350px;
+    width: 550px;
+    gap: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.video>img{
+    width: 100%;
+    object-fit: cover;
+    height: 70%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
