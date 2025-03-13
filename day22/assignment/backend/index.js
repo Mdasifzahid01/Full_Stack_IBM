@@ -76,7 +76,7 @@ app.delete("/products/:id",(req,res)=>{
 });
 
 
-//Route for handling invalid requests
+//Route for handling invalid request
 app.use((req,res)=>{
     res.status(404).json({"message":"Route not Found"});
 });
