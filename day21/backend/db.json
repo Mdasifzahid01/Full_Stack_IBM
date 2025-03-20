@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    },
+    {
+      "id": "f45b",
+      "title": "133",
+      "views": 0.1492711124019348
+    },
+    {
+      "id": "84d4",
+      "title": "save new data",
+      "views": 0.43707432262319834
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "Asif": [
+    {
+      "name": "Asif",
+      "age": 19
+    }
+  ]
+}
